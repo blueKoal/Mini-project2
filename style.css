@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Images/img3.png");
+  background-size: 100% 950px;
+  background-color: rgb(31, 31, 31);
+  color: whitesmoke;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+#body {
+  padding: 0 10px 20px;
+}
+
+/* Image Styling */
+
+#img-netf{
+  width:70px;
+  height:40px;
+}
+#img-prime{
+  width:90px;
+  height:60px;
+}
+
+#img-hbo{
+  width:75px;
+  height:20px;
+}
+
+#img-hulu{
+  width: 30;
+  height: 40px;
+}
+
+/* x x x */
+
+/* table styling */
+
+
+table{
+  /* border-bottom: 2px solid black; */
+  width: 50%;
+  margin: 20px;
+  margin-top: 17%;
+  margin-left: 26%;
+  border-collapse: collapse;
+}
+
+tbody tr:hover{
+  background: rgba(202, 108, 108, 0.616)
+}
+td{
+  padding: 15px;
+  margin: 10px 0px 10px 0px;
+}
+thead th{
+   border-bottom:1px solid white;
+   padding: 5px;
+   
+}
+tbody{
+  text-align: center;
+  color: greenyellow;
+}
+.uid{
+  color: rgb(83, 83, 255);
+}
+
+.exp{
+  color: rgba(243, 162, 12, 0.836);
+}
+
+
+tfoot{
+  
+  border-left:5px solid white;
+  border-right: 5px solid white;
+  font-family:'Blinker', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+
+}
+
+a{
+
+  color: rgba(255, 0, 0, 0.774);
+  text-decoration: none;
+  text-shadow: 2px 2px 3px rgb(49, 49, 49);
+}
+a:hover{
+  color: red;
+}
+
+
+#page-title {
+  margin: 0 0 25px 0;
+  padding: 0;
+  border-bottom: 1px solid rgb(22, 22, 22);
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  font-family: monospace;
+}
